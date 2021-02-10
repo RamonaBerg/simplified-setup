@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+	margin: 0px;
+	padding: 0px;}
+
+body {
+	background-color:rgb(255, 255, 255);}
+
+#wrapper {width:100%;
+	height:1800px;
+	margin:auto;}
+
+header{	width:100%;
+		height:300px;
+		background-color:rgb(255,255,255,255);
+		background-image:url(bilder/header.jpg);
+		background-size:100%;
+    	background-repeat: no-repeat;
+		}
+
+#logo{		width:250px;
+		height:250px;
+		float:left;
+		margin-left:790px;
+		margin-top:5px;
+		border-radius: 50%;
+  		display: inline-block;
+		background-color:rgb(255, 255, 255);}	
+
+
+#sprachauswahl{
+				width:100px;
+				height:50px;
+				float:left;
+				margin-left:1700px;
+				margin-top:-200px;
+				}
+
+
+nav{	width:100%;
+	height:75px;
+	float:left;
+	margin-top:30px;
+	background-color:#000;}
+	
+nav ul li{		height:50px;
+			width:180px;
+			padding-top:20px;
+			padding-bottom:5px;
+			text-align:center;
+			float:left;
+			margin-left:230px;
+			list-style-type:none;
+			background-color:rgb(0, 0, 0, 0.8);}
+			
+nav ul li a{color:rgba(255,255,255,1);
+			text-decoration:none;
+			text-align:center;}
+
+nav ul li a:hover{transition:0.5s all;
+			text-decoration:none;
+			color:rgba(255, 0, 0);}
+			
+nav ul li ul{width:10px;
+			display:none;
+			position:absolute;
+			float:left;
+			margin-left:-230px;
+			top:350px;
+			font-size:20px;}
+			
+nav ul li ul a{color:rgba(255,255,255,1);}
+
+nav ul li ul a:hover{color:rgba(255, 0, 0);}																				
+
+nav ul li:hover ul{display:block;}
+
+section{	width: 100%;
+    		height: 2800px;
+		float:left;
+		background-image:url(bilder/.jpg);
+		background-color:rgba(60, 60, 60);}
+
+section#hauptseite{	width: 100%;
+    		height: 2000px;
+		float:left;
+		background-image:url(bilder/.jpg);
+		background:;}
+
+section#foto{	width: 100%;
+    		height: 3000px;
+		float:left;
+		background-image:url(bilder/.jpg);
+		background-color:rgba(60, 60, 60);}			
+
+section#illustrationen{	width: 100%;
+    		height: 3000px;
+		float:left;
+		background-image:url(bilder/.jpg);
+		background-color:rgba(60, 60, 60);}
+
+section#grafik{	width: 100%;
+    		height: 3000px;
+		float:left;
+		background-image:url(bilder/.jpg);
+		background-color:rgba(60, 60, 60);}
+
+section#typo{	width: 100%;
+    		height: 3000px;
+		float:left;
+		background-image:url(bilder/.jpg);
+		background-color:rgba(60, 60, 60);}
+
+section#uebermich{	width: 100%;
+    		height: 1000px;
+		float:left;
+		background-image:url(bilder/.jpg);
+		background-color:rgba(60, 60, 60);}		
+
+	
+
+
+
+#willkommen{width:1400px;
+				height:200px;
+				float:left;
+				padding:25px;
+				margin-top:150px;
+				margin-left:200px;
+				background-color:rgb(0, 0, 0);}
+
+.auswahl{
+width:400px;
+height:600px;
+float:left;
+margin-left:50px;
+margin-top:90px;
+background-color:rgb(0, 0, 0);
+filter: blur(8px);
+-webkit-filter: blur(5px);
+
+}
+ 
+.auswahl:hover {
+	filter: blur(0px);
+-webkit-filter: blur(0px);
+}
+
+#myself{
+width:500px;
+height:500px;
+float:left;
+margin-left:200px;
+margin-top:250px;
+border-radius: 50%;
+background-color:rgba(0,0,0);}
+
+#myselftext{
+	width:1000px;
+	height:600px;
+	float:left;
+	margin-left:90px;
+	margin-top:200px;
+	background-color:rgb(255, 255, 255);}
+
+
+#teaserarbeiten{
+	width:100%;
+	height:300px;
+	float:left;
+	background-color:rgb(53, 53, 53);}
+
+
+.auswahlarbeiten{
+	width:500px;
+	height:500px;
+	float:left;
+	margin-left:300px;
+	margin-top:100px;
+	border-radius: 50%;
+	background-color:rgba(0,0,0);}
+
+.auswahltext{
+		width:500px;
+		height:500px;
+		float:left;
+		margin-left:300px;
+		margin-top:100px;
+		background-color:rgb(255, 255, 255);}
+
+
+
+.fotobilder{					width:400px;
+								height:600px;
+								float:left;
+								margin-left:180px;
+								margin-top:350px;
+								-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+								-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+								box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+								-webkit-filter: grayscale(100%);
+								 transition: transform 0.2s;
+								background-color:rgba(255,255,255);}
+
+.illustrationbilder{					width:400px;
+									height:600px;
+									float:left;
+									margin-left:180px;
+									margin-top:350px;
+									-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+									-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+									box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+									-webkit-filter: grayscale(100%);
+									 transition: transform 0.2s;
+									background-color:rgba(255,255,255);}
+
+.grafikbilder{					width:400px;
+										height:600px;
+										float:left;
+										margin-left:180px;
+										margin-top:350px;
+										-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+										-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+										box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+										-webkit-filter: grayscale(100%);
+										 transition: transform 0.2s;
+										background-color:rgba(255,255,255);}
+
+.typobilder{					width:400px;
+											height:600px;
+											float:left;
+											margin-left:180px;
+											margin-top:350px;
+											-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+											-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+											box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+											-webkit-filter: grayscale(100%);
+											 transition: transform 0.2s;
+											background-color:rgba(255,255,255);}
+
+
+footer{height:400px;
+		width:100%;
+		float:left;
+		margin-top:20px;
+		background-color:rgb(0, 0, 0);}
+
+#formular{width:500px;
+			height:300px;
+			float:left;
+			margin-left:50px;
+			margin-top:50px;
+			background-color:rgba(255,255,255);}
+
+.socialmedia{width:40px;
+		height:40px;
+		float:left;
+		margin-left:200px;
+		margin-top:300px;
+		}
+
+
+.links{width:100px;
+					height:100px;
+					float:left;
+					margin-left:400px;
+					margin-top:200px;
+					}	
+					
+.links ul li a:hover{transition:0.5s all;
+	list-style-type:none;
+	color:rgba(255, 0, 0);}							
+
+.farbig{color:rgba(192,127,21,1.00);}
+
+a {font-family: 'Roboto', regular;	
+	font-size:20px;
+	font-weight:normal;
+	color: rgba(255,255,255,1);}
+
+p{font-family: 'Roboto', regular;	
+	font-size:18px;
+	font-weight:normal;
+	color:rgba(82,82,82,1.00);}
+	
+h1{font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size:26px;
+	font-weight:normal;
+	color:rgba(82,82,82,1.00);}
+
+		
+	
+	
