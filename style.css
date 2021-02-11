@@ -169,7 +169,7 @@ transition: transform .2s;
 filter: opacity(30%);
 transition: filter 1.5s;
 }
- 
+
 .auswahl:hover {
 	transform: scale(1.1);
 	filter: opacity(100%);
