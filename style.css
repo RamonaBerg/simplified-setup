@@ -129,19 +129,19 @@ section#arbeiten{	width: 100%;
 
 
 section#foto{	width: 100%;
-    			height: 2400px;
+    			height: 4500px;
 				float:left;}
 
 section#illustrationen{	width: 100%;
-    					height: 2400px;
+    					height: 4500px;
 						float:left;}
 
 section#grafik{	width: 100%;
-    			height: 2400px;
+    			height: 4500px;
 				float:left;}
 
 section#typo{	width: 100%;
-    			height: 2400px;
+    			height: 4500px;
 				float:left;}
 
 section#uebermich{	width: 100%;
@@ -219,10 +219,10 @@ background-image:url(bilder/Selbstportrait.jpg);}
 		margin-top:var(--unit-xxl);
 		background-color:var(--color-primary);}
 
-.fotobilder{	width:400px;
-				height:266px;
+.fotobilder{	width:800px;
+				height:532px;
 				float:left;
-				margin-left:var(--unit-xl);
+				margin-left:var(--unit-xxl);
 				margin-top:var(--unit-xxxl);
 				-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
 				-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
@@ -233,10 +233,10 @@ background-image:url(bilder/Selbstportrait.jpg);}
 
 .fotobilder:hover {	transform: scale(1.2);}
 
-.illustrationbilder{width:400px;
-					height:500px;
+.illustrationbilder{width:800px;
+					height:600px;
 					float:left;
-					margin-left:var(--unit-xl);
+					margin-left:var(--unit-xxl);
 					margin-top:var(--unit-xxxl);
 					-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
 					-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
@@ -246,10 +246,10 @@ background-image:url(bilder/Selbstportrait.jpg);}
 
 .illustrationbilder:hover {	transform: scale(1.1);}
 
-.grafikbilder{	width:400px;
-				height:500px;
+.grafikbilder{	width:800px;
+				height:600px;
 				float:left;
-				margin-left:var(--unit-xl);
+				margin-left:var(--unit-xxl);
 				margin-top:var(--unit-xxxl);
 				-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
 				-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
@@ -260,10 +260,10 @@ background-image:url(bilder/Selbstportrait.jpg);}
 									
 .grafikbilder:hover {	transform: scale(1.1);}
 
-.typobilder{	width:400px;
-				height:500px;
+.typobilder{	width:800px;
+				height:600px;
 				float:left;
-				margin-left:var(--unit-xl);
+				margin-left:var(--unit-xxl);
 				margin-top:var(--unit-xxxl);
 				-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
 				-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
