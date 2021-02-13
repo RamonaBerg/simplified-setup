@@ -51,7 +51,7 @@ header{	width:100%;
 #logo{	width:100px;
 		height:100px;
 		margin-left:var(--unit-s);
-		margin-top:var(--unit-xxs);
+		margin-top:var(--unit-s);
 		border-radius: 50%;
   		display: inline-block;
 		justify-content: center;}	
