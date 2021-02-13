@@ -132,7 +132,7 @@ section#typo{	width: 100%;
 				float:left;}
 
 section#uebermich{	width: 100%;
-    				height: 1200px;
+    				height: 1000px;
 					float:left;}		
 
 section#contact{	width: 100%;
@@ -140,7 +140,7 @@ section#contact{	width: 100%;
 					float:left;}	
 
 section#gallery{	width: 100%;
-					height: 1000px;
+					height: 900px;
 					float:left;}
 
 
@@ -171,11 +171,10 @@ transition: filter 2s;
 
 #myself{
 width:400px;
-height:400px;
+height:680px;
 float:left;
 margin-left:var(--unit-xxxl);
 margin-top:var(--unit-xxxl);
-border-radius: 50%;
 background-image:url(bilder/Selbstportrait.jpg);}
 
 #myselftext{
@@ -186,12 +185,6 @@ background-image:url(bilder/Selbstportrait.jpg);}
 	margin-left:var(--unit-xxl);
 	margin-top:var(--unit-xxxl);
 	border:2px solid var(--color-primary);}
-
-#teaserarbeiten{
-	width:100%;
-	height:300px;
-	float:left;
-	background-color:rgba(53, 53, 53);}
 
 .fotobilder{	width:800px;
 				height:532px;
@@ -210,11 +203,11 @@ background-image:url(bilder/Selbstportrait.jpg);}
 .fotobilder:hover {	transform: scale(1.2);
 					filter: opacity(100%);}
 
-#besteck_gross{width:900px;
+#gallery_gross{width:900px;
 						height:598px;
 						float:left;
-						margin-left:100px;
-						margin-top:120px;
+						margin-left:var(--unit-xxl);
+						margin-top:var(--unit-xl);
 						background-color:var(--color-secondary);}
 
 
@@ -275,8 +268,8 @@ background-image:url(bilder/Selbstportrait.jpg);}
 						height:30px;
 						float:left;
 						clear:both;
-						margin-left:100px;
-						margin-top:20px;
+						margin-left:110px;
+						margin-top:var(--unit-s);
 						padding:10px;
 						background-color:rgba(255,255,255);}
 
@@ -284,8 +277,8 @@ background-image:url(bilder/Selbstportrait.jpg);}
 							height:20px;
 							float:left;
 							clear:both;
-							margin-left:500px;
-							margin-top:20px;
+							margin-left:510px;
+							margin-top:var(--unit-s);
 							padding:10px;}
 
 
@@ -307,8 +300,8 @@ background-image:url(bilder/Selbstportrait.jpg);}
 					margin-left:var(--unit-xl);
 					margin-top:var(--unit-xxl);
 					-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
-				-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
-				box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+					-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+					box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
 					background-color:var(--color-secondary);}
 
 /*Footer*/
@@ -346,8 +339,8 @@ footer{height:400px;
 						text-align:center;}	
 
 .links ul li a:hover{transition:0.5s all;
-	list-style-type:none;
-	color:var(--color-highlight)}		
+					list-style-type:none;
+					color:var(--color-highlight)}		
 
 /*Text, Headline*/
 
