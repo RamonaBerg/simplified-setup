@@ -30,12 +30,11 @@
 	padding: 0px;}
 
 
-body {
-	background-color:var(--color-secondary);}
+body {	background-color:var(--color-secondary);}
 
-#wrapper {width:100%;
-	height:1800px;
-	margin:auto;}
+#wrapper {	width:100%;
+			height:1800px;
+			margin:auto;}
 
 /*Header*/
 
@@ -64,11 +63,11 @@ header{	width:100%;
 
 /*Navigation*/
 
-nav{width:100%;
-	height:60px;
-	float:left;
-	margin-top:var(--unit-s);
-	background-color:var(--color-primary);}
+nav{	width:100%;
+		height:60px;
+		float:left;
+		margin-top:var(--unit-s);
+		background-color:var(--color-primary);}
 	
 nav ul li{	height:30px;
 			width:180px;
@@ -80,22 +79,22 @@ nav ul li{	height:30px;
 			list-style-type:none;
 			background-color:var(--color-primary);}
 			
-nav ul li a{color:var(--color-secondary);
-			text-decoration:none;
-			text-align:center;}
+nav ul li a{	color:var(--color-secondary);
+				text-decoration:none;
+				text-align:center;}
 
-nav ul li a:hover{transition:0.5s all;
-			text-decoration:none;
-			color:var(--color-highlight);}
+nav ul li a:hover{	transition:0.5s all;
+					text-decoration:none;
+					color:var(--color-highlight);}
 			
-nav ul li ul{width: 160px;
-			display:none;
-			position: relative;
-			margin-left:-180px;
-			margin-top:var(--unit-s);
-			z-index: 1;}
+nav ul li ul{	width: 160px;
+				display:none;
+				position: relative;
+				margin-left:-180px;
+				margin-top:var(--unit-s);
+				z-index: 1;}
 			
-nav ul li ul a{color:var(--color-secondary);
+nav ul li ul a{	color:var(--color-secondary);
 				float:left;
 				margin-left:var(--unit-l) ;}
 
@@ -144,47 +143,43 @@ section#gallery{	width: 100%;
 					float:left;}
 
 
-#willkommen{width:100%;
+#willkommen{	width:100%;
 				height:300px;
 				float:left;
 				display:inline;
 				background-color:var(--color-primary);}
 
-.auswahl{
-width:400px;
-height:600px;
-float:left;
-margin-left:var(--unit-xl);
-margin-top:var(--unit-xxxl);
-background-color:var(--color-primary);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.20);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.20);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.20);
-transition: transform .3s;
-filter: opacity(30%);
-transition: filter 2s;
+.auswahl{	width:400px;
+			height:600px;
+			float:left;
+			margin-left:var(--unit-xl);
+			margin-top:var(--unit-xxxl);
+			background-color:var(--color-primary);
+			-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.20);
+			-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.20);
+			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.20);
+			transition: transform .3s;
+			filter: opacity(30%);
+			transition: filter 2s;
 }
 
-.auswahl:hover {
-	transform: scale(1.1);
-	filter: opacity(100%);}
+.auswahl:hover {	transform: scale(1.1);
+					filter: opacity(100%);}
 
-#myself{
-width:400px;
-height:680px;
-float:left;
-margin-left:var(--unit-xxxl);
-margin-top:var(--unit-xxxl);
-background-image:url(bilder/Selbstportrait.jpg);}
+#myself{	width:400px;
+			height:680px;
+			float:left;
+			margin-left:var(--unit-xxxl);
+			margin-top:var(--unit-xxxl);
+			background-image:url(bilder/Selbstportrait.jpg);}
 
-#myselftext{
-	width:900px;
-	height:300px;
-	float:left;
-	padding:var(--unit-l);
-	margin-left:var(--unit-xxl);
-	margin-top:var(--unit-xxxl);
-	border:2px solid var(--color-primary);}
+#myselftext{	width:900px;
+				height:300px;
+				float:left;
+				padding:var(--unit-l);
+				margin-left:var(--unit-xxl);
+				margin-top:var(--unit-xxxl);
+				border:2px solid var(--color-primary);}
 
 .fotobilder{	width:800px;
 				height:532px;
@@ -203,27 +198,27 @@ background-image:url(bilder/Selbstportrait.jpg);}
 .fotobilder:hover {	transform: scale(1.2);
 					filter: opacity(100%);}
 
-#gallery_gross{width:900px;
-						height:598px;
-						float:left;
-						margin-left:var(--unit-xxl);
-						margin-top:var(--unit-xl);
-						background-color:var(--color-secondary);}
-
-
-
-.illustrationbilder{width:800px;
-					height:600px;
+#gallery_gross{		width:900px;
+					height:598px;
 					float:left;
 					margin-left:var(--unit-xxl);
-					margin-top:var(--unit-xxxl);
-					-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
-					-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
-					box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
-					background-color:var(--color-primary);
-					transition: transform .2s;
-					filter: opacity(30%);
-					transition: filter 1.5s;}
+					margin-top:var(--unit-xl);
+					background-color:var(--color-secondary);}
+
+
+
+.illustrationbilder{	width:800px;
+						height:600px;
+						float:left;
+						margin-left:var(--unit-xxl);
+						margin-top:var(--unit-xxxl);
+						-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+						-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+						box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+						background-color:var(--color-primary);
+						transition: transform .2s;
+						filter: opacity(30%);
+						transition: filter 1.5s;}
 
 .illustrationbilder:hover {	transform: scale(1.1);
 							filter: opacity(100%);}
@@ -264,7 +259,7 @@ background-image:url(bilder/Selbstportrait.jpg);}
 .typobilder:hover {	transform: scale(1.1);
 					filter: opacity(100%);}
 
-#bildbeschreibung{width:880px;
+#bildbeschreibung{		width:880px;
 						height:30px;
 						float:left;
 						clear:both;
@@ -273,23 +268,23 @@ background-image:url(bilder/Selbstportrait.jpg);}
 						padding:10px;
 						background-color:rgba(255,255,255);}
 
-#beschreibung{width:880px;
-							height:20px;
-							float:left;
-							clear:both;
-							margin-left:510px;
-							margin-top:var(--unit-s);
-							padding:10px;}
+#beschreibung{	width:880px;
+				height:20px;
+				float:left;
+				clear:both;
+				margin-left:510px;
+				margin-top:var(--unit-s);
+				padding:10px;}
 
 /*Gallery Navigation*/
 
-#rechts{width:100px;
-		height:100px;
-		float:left;
-		margin-left:100px;
-		margin-top:350px;}
+#rechts{	width:100px;
+			height:100px;
+			float:left;
+			margin-left:100px;
+			margin-top:350px;}
 
-#links{width:100px;
+#links{	width:100px;
 		height:100px;
 		float:left;
 		margin-left:300px;
@@ -307,13 +302,13 @@ background-image:url(bilder/Selbstportrait.jpg);}
 
 /*Footer*/
 
-footer{height:400px;
+footer{	height:400px;
 		width:100%;
 		float:left;
 		margin-top:var(--unit-xxl);
 		background-color:var(--color-primary);}
 
-#formular{width:500px;
+#formular{	width:500px;
 			height:300px;
 			float:left;
 			margin-left:var(--unit-xl);
@@ -322,45 +317,43 @@ footer{height:400px;
 
 /*Footer Metanavigation*/
 
-.socialmedia{width:40px;
-		height:40px;
-		float:left;
-		margin-left:200px;
-		margin-top:330px;
-		}
+.socialmedia{	width:40px;
+				height:40px;
+				float:left;
+				margin-left:200px;
+				margin-top:330px;}
 
-.links{width:100px;
-					height:100px;
-					float:left;
-					margin-left:450px;
-					margin-top:var(--unit-xxl);
-					}	
+.links{		width:100px;
+			height:100px;
+			float:left;
+			margin-left:450px;
+			margin-top:var(--unit-xxl);}	
 
-.links ul li a{color:var(--color-secondary);
-						text-decoration:none;
-						text-align:center;}	
+.links ul li a{	color:var(--color-secondary);
+				text-decoration:none;
+				text-align:center;}	
 
-.links ul li a:hover{transition:0.5s all;
-					list-style-type:none;
-					color:var(--color-highlight)}		
+.links ul li a:hover{	transition:0.5s all;
+						list-style-type:none;
+						color:var(--color-highlight)}		
 
 /*Text, Headline*/
 
-.hightlight{color:var(--color-highlight);}
+.hightlight{	color:var(--color-highlight);}
 
-a {font-family: 'Roboto', regular;	
+a {	font-family: 'Roboto', regular;	
 	font-size:20px;
 	font-weight:normal;
 	color: var(--color-secondary);}
 
 
-p{font-family: 'Roboto', regular;
+p{	font-family: 'Roboto', regular;
 	padding:8px;	
 	font-size:18px;
 	font-weight:normal;
 	color: var(--color-primary);}
 	
-h1{font-family:'Roboto', regular;
+h1{	font-family:'Roboto', regular;
 	padding:8px;
 	font-size:26px;
 	font-weight:normal;
