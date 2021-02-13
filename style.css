@@ -139,6 +139,11 @@ section#contact{	width: 100%;
     				height: 1200px;
 					float:left;}	
 
+section#gallery{	width: 100%;
+					height: 1000px;
+					float:left;}
+
+
 #willkommen{width:100%;
 				height:300px;
 				float:left;
@@ -205,6 +210,15 @@ background-image:url(bilder/Selbstportrait.jpg);}
 .fotobilder:hover {	transform: scale(1.2);
 					filter: opacity(100%);}
 
+#besteck_gross{width:900px;
+						height:598px;
+						float:left;
+						margin-left:100px;
+						margin-top:120px;
+						background-color:var(--color-secondary);}
+
+
+
 .illustrationbilder{width:800px;
 					height:600px;
 					float:left;
@@ -257,7 +271,35 @@ background-image:url(bilder/Selbstportrait.jpg);}
 .typobilder:hover {	transform: scale(1.1);
 					filter: opacity(100%);}
 
+#bildbeschreibung{width:880px;
+						height:30px;
+						float:left;
+						clear:both;
+						margin-left:100px;
+						margin-top:20px;
+						padding:10px;
+						background-color:rgba(255,255,255);}
 
+#beschreibung{width:880px;
+							height:20px;
+							float:left;
+							clear:both;
+							margin-left:500px;
+							margin-top:20px;
+							padding:10px;}
+
+
+#rechts{width:100px;
+		height:100px;
+		float:left;
+		margin-left:100px;
+		margin-top:350px;}
+
+#links{width:100px;
+		height:100px;
+		float:left;
+		margin-left:300px;
+		margin-top:350px;}		
 
 #contactformular{	width:800px;
 					height:600px;
