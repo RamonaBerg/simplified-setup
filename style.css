@@ -309,7 +309,7 @@ background-image:url(bilder/Selbstportrait.jpg);}
 footer{height:400px;
 		width:100%;
 		float:left;
-		margin-top:var(--unit-l);
+		margin-top:var(--unit-xxl);
 		background-color:var(--color-primary);}
 
 #formular{width:500px;
@@ -331,7 +331,7 @@ footer{height:400px;
 					height:100px;
 					float:left;
 					margin-left:450px;
-					margin-top:var(--unit-xxxl);
+					margin-top:var(--unit-xxl);
 					}	
 
 .links ul li a{color:var(--color-secondary);
