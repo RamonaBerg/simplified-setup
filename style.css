@@ -281,6 +281,7 @@ background-image:url(bilder/Selbstportrait.jpg);}
 							margin-top:var(--unit-s);
 							padding:10px;}
 
+/*Gallery Navigation*/
 
 #rechts{width:100px;
 		height:100px;
@@ -292,17 +293,7 @@ background-image:url(bilder/Selbstportrait.jpg);}
 		height:100px;
 		float:left;
 		margin-left:300px;
-		margin-top:350px;}		
-
-#contactformular{	width:800px;
-					height:600px;
-					float:left;
-					margin-left:var(--unit-xl);
-					margin-top:var(--unit-xxl);
-					-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
-					-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
-					box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
-					background-color:var(--color-secondary);}
+		margin-top:350px;}
 
 /*Footer*/
 
@@ -319,7 +310,8 @@ footer{height:400px;
 			margin-top:var(--unit-xl);
 			background-color:var(--color-secondary);}
 
-			
+/*Footer Metanavigation*/
+
 .socialmedia{width:40px;
 		height:40px;
 		float:left;
